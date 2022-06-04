@@ -6,5 +6,6 @@ app_name = 'posts'
 
 
 urlpatterns = [
-    path('', vs.home_page, name='homepage')
+    path('', vs.home_page, name='homepage'),
+    path('post-json/', vs.post_view_json, name='post-json'),
 ]

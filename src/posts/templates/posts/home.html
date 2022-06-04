@@ -1,11 +1,15 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% load static %}
 <!-- home page title -->
 {% block title %} Home Page {% endblock title %}
 
 <!-- content of page -->
 {% block content %}
 
-<div>hello world</div>
+<div>Header Page</div>
+<hr />
 
+<div id="post" class="bg-dark text-white p-4">
+  <div class="spinner-border" id="spinner" role="status"></div>
+</div>
 <!-- end of content -->
 {% endblock content %}
